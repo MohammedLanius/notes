@@ -1,0 +1,5 @@
+المشكلة:  snapd has no instaltion candidate
+الحل: اكتب في الطرفية 
+sudo rm /etc/apt/preferences.d/nosnap.pref
+
+
