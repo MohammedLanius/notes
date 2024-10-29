@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منارات المعرفة</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Amiri', serif;
+            background: linear-gradient(45deg, #f5f5f5, #e0e0e0);
+            margin: 0;
+            padding: 20px;
+            color: #1a1a1a;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .category {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .category-title {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .channels {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+    text-align: center;
+        }
+
+        /* تحسين العرض للشاشات الكبيرة */
+        @media (min-width: 768px) {
+            .channels {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .channel {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .channel:hover {
+            background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .channel-title {
+            color: #2980b9;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .channel-desc {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .ornament {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            text-align: center;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>دُرر المَعارِف</h1>
+            <div class="ornament">⁂</div>
+            <p>مَجمَعُ النَّفائِسِ وَمُلتَقى الفَضائِل</p>
+        </header>
+
+
+        <section class="category">
+            <h2 class="category-title">مَنارَاتُ العِلمِ الشَّرعِي</h2>
+            <div class="channels">
+                <a href="https://t.me/AlhaaAkbar" class="channel">
+                    <div class="channel-title">أهل التوحيد</div>
+                    <div class="channel-desc">مَنهَلٌ عَذبٌ لِطُلّابِ التَّوحيدِ الخالِص</div>
+                </a>
+                
+                <a href="https://t.me/mustakeen" class="channel">
+                    <div class="channel-title">إتحاف الأريب</div>
+                    <div class="channel-desc">دُرَرٌ شافِعيَّةٌ وَفَوائِدُ عِلميَّة</div>
+                </a>
+
+                <a href="https://t.me/AboObadaShami" class="channel">
+                    <div class="channel-title">قناة الغيث الشامي</div>
+                    <div class="channel-desc">نَفَحاتٌ أثَريّةٌ مِن دِمَشقَ الشّام</div>
+                </a>
+
+                <a href="https://t.me/quwaa" class="channel">
+                    <div class="channel-title">كوة الكتب المصورة</div>
+                    <div class="channel-desc">نافِذَةٌ مُشرِقَةٌ لِعُيونِ التُّراثِ</div>
+                </a>
+
+                <a href="https://t.me/tgyjop" class="channel">
+                    <div class="channel-title">فقه القرون الأولى</div>
+                    <div class="channel-desc">مِيراثُ السَّلَفِ الصّالِح</div>
+                </a>
+
+                <a href="https://t.me/Zaikana5" class="channel">
+                    <div class="channel-title">كناشة تقي الدين</div>
+                    <div class="channel-desc">على نهج أهل الأثر</div>
+                </a>
+
+                <a href="https://t.me/LIBYQ" class="channel">
+                    <div class="channel-title">شيءٌ نُؤجَرُ عليه</div>
+                    <div class="channel-desc">نَفَحاتٌ إيمانيّةٌ خالِصة</div>
+                </a>
+
+                <a href="https://t.me/Alsakrandrr" class="channel">
+                    <div class="channel-title">درر الشيخ السكران</div>
+                    <div class="channel-desc">نَفائِسُ وفَرائِدُ عِلميّة</div>
+                </a>
+
+                <a href="https://t.me/t_elm3" class="channel">
+                    <div class="channel-title">مدونة أروى أبا الخيل</div>
+                    <div class="channel-desc">خُذ ما صَفا ودَع ما كَدَر</div>
+                </a>
+
+                <a href="https://t.me/Qitaa1" class="channel">
+                    <div class="channel-title">قِطَع</div>
+                    <div class="channel-desc">اختيارُ الإنسانِ قِطعَةٌ مِن عَقلِه</div>
+                </a>
+ <a href="https://t.me/osa5ss" class="channel">
+                    <div class="channel-title">سيبويه</div>
+                    <div class="channel-desc">تجرع من نهر العربية العذب مع سيبويه</div>
+                </a>
+ <a href="https://t.me/alryd2000" class="channel">
+                    <div class="channel-title">الغيداء</div>
+                    <div class="channel-desc">فقه المرأة مع الغيداء</div>
+                </a>
+ </a>
+ <a href="https://t.me/t_elm3" class="channel">
+                    <div class="channel-title">مدونة أروي أبي الخيل</div>
+                    <div class="channel-desc">مِنبَرٌ لِلفِكرِ الرَّصينِ وَالرُّؤى الثّاقِبَة</div>
+                </a>
+ <a href="https://t.me/EH_AR_1" class="channel">
+                    <div class="channel-title">إيهاب بن حاتم</div>
+                    <div class="channel-desc">بُستانٌ مَعرِفيٌّ يَفيضُ بِعَبَقِ العِلمِ</div>
+                </a>
+ <a href="https://t.me/erjone" class="channel">
+                    <div class="channel-title">كناشة أبوالبراء</div>
+                    <div class="channel-desc">صَفحاتٌ مُضيئَةٌ مِن فَيضِ العُلومِ وَالمَعارِف</div>
+                </a>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2 class="category-title">مَحاضِنُ التِّقنيَة</h2>
+            <div class="channels">
+                <a href="https://t.me/HausabaCS" class="channel">
+                    <div class="channel-title">حَوسَبة</div>
+                    <div class="channel-desc">مَنهَلٌ لِعُلومِ الحاسِبِ وَفُنونِه</div>
+                </a>
+                
+                <a href="https://t.me/linuxgram" class="channel">
+                    <div class="channel-title">لينُكس</div>
+                    <div class="channel-desc">واحَةُ البَرمَجَةِ الحُرَّة</div>
+                </a>
+
+                <a href="https://t.me/github_repos" class="channel">
+                    <div class="channel-title">مَستودَعات غِتهَب</div>
+                    <div class="channel-desc">كُنوزُ البَرمَجَةِ المَفتوحَة</div>
+                </a>
+
+                <a href="https://t.me/sabbaghiat" class="channel">
+                    <div class="channel-title">صِباغِيّات</div>
+                    <div class="channel-desc">فُنونُ البَرمَجَةِ وَجَمالِيّاتُها</div>
+                </a>
+
+                <a href="https://t.me/sparoScyber" class="channel">
+                    <div class="channel-title">سِبارو</div>
+                    <div class="channel-desc">أمنُ المَعلوماتِ وَحِمايَتُها</div>
+                </a>
+
+                <a href="https://t.me/HallosTech" class="channel">
+                    <div class="channel-title">التقنية الهالوسية</div>
+                    <div class="channel-desc">آفاقٌ تِقنيّةٌ مُتَجَدِّدَ
+
